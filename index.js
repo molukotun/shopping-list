@@ -49,7 +49,7 @@ function generateShoppingItemsString(shoppingList) {
 }
 
 
-/*
+/
 function renderShoppingList() {
   // render the shopping list in the DOM
   console.log('`renderShoppingList` ran');
@@ -58,7 +58,7 @@ function renderShoppingList() {
   // insert that HTML into the DOM
   $('.js-shopping-list').html(shoppingListItemsString);
 }
-*/
+
 
 function addItemToShoppingList(itemName) {
   console.log(`Adding "${itemName}" to shopping list`);
