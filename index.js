@@ -1,7 +1,3 @@
-/* eslint-disable quotes */
-/* eslint-disable no-undef */
-/* eslint-disable strict */
-
 const STORE = [
   {
     id: cuid(), 
@@ -49,7 +45,7 @@ function generateShoppingItemsString(shoppingList) {
 }
 
 
-/
+
 function renderShoppingList() {
   // render the shopping list in the DOM
   console.log('`renderShoppingList` ran');
